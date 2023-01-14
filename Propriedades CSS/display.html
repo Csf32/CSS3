@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS</title>
+    <style type="text/css">
+       
+       body{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       }
+       
+       .container{
+            margin-top: 30px;
+            max-width: 100vw;
+        }
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: orange;
+        }
+        .block{
+
+            display: block; 
+        }
+
+       .inline{
+            display: inline;
+            width: 200px;
+       }
+
+       .inline-block{
+           display: inline-block; 
+           width: 200px
+         
+       }
+
+       .contents{ 
+           display: contents;
+           background-color: darkblue;
+       }
+
+       .flex{
+           display: flex;
+           flex-direction: column;
+           
+       }
+
+       .inline-flex{
+
+            display: inline-flex;
+            flex-direction: column;
+            
+       }
+
+       .grid{
+           display: grid;
+           grid-template-columns:repeat(4, 70px);
+       }
+       
+       .inline-grid{
+           display:inline-grid;
+           grid-template-columns: repeat(4, 70px);
+       }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Display block</h2>
+        <div class="block">
+           
+        </div>
+        <span class="block">Treinamento</span> 
+        <span class="block">Treinamento</span>
+        <span class="block">Treinamento</span>
+
+    </div>
+
+    <div class="container">
+
+        <h2>Display inline</h2>
+        <div class="inline">
+            Treinamento Display Inline 
+        </div>
+        <span class="inline">Treinamento</span>
+        <span class="inline">Treinamento</span>
+        <span class="inline">Treinamento</span>
+
+    </div>
+
+    <div class="container">
+
+        <h2>Display inline-block</h2>
+        
+        <span class="inline-block">Treinamento</span>
+        <span class="inline-block">Treinamento</span>
+        <span class="inline-block">Treinamento</span>
+
+    </div>
+
+    <div class="container">
+
+        <h2>Display contents</h2>
+        
+        <span class="inline-contents">Treinamento</span>
+        <span class="inline-contents">Treinamento</span>
+        <span class="inline-contents">Treinamento</span>
+
+    </div>
+
+    <div class="container">
+
+        <h2>Display flex</h2>
+
+        <div class="flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+        <div class="flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Display inline-flex</h2>
+
+        <div class="inline-flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+        <div class="inline-flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Display inline-flex</h2>
+
+        <div class="inline-flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+        <div class="inline-flex">
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+            <span>Treinamento</span>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Display grid</h2>
+
+        <div class="grid">
+           <div>AC</div>
+           <div>CE</div>
+           <div>%</div>
+           <div>/</div>
+           <div>7</div>
+           <div>8</div>
+           <div>9</div>
+           <div>x</div>
+           <div>4</div>
+           <div>5</div>
+           <div>6</div>
+           <div>-</div>
+           <div>1</div>
+           <div>2</div>
+           <div>3</div>
+           <div>+</div>
+           <div>0</div>
+           <div>.</div>
+           <div>,</div>
+           <div>=</div>
+        
+        </div>
+    </div>
+
+    <div class="container">
+
+        <h2>Display inline-grid</h2>
+
+        <div class="inline-grid">
+           <div>AC</div>
+           <div>CE</div>
+           <div>%</div>
+           <div>/</div>
+           <div>7</div>
+           <div>8</div>
+           <div>9</div>
+           <div>x</div>
+           <div>4</div>
+           <div>5</div>
+           <div>6</div>
+           <div>-</div>
+           <div>1</div>
+           <div>2</div>
+           <div>3</div>
+           <div>+</div>
+           <div>0</div>
+           <div>.</div>
+           <div>,</div>
+           <div>=</div>
+        
+        </div>
+        
+        <div class="inline-grid">
+            <div>AC</div>
+            <div>CE</div>
+            <div>%</div>
+            <div>/</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>x</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>-</div>
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>+</div>
+            <div>0</div>
+            <div>.</div>
+            <div>,</div>
+            <div>=</div>
+         
+         </div>
+    </div>
+</body>
+</html>

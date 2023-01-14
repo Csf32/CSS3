@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS</title>
+    <style type="text/css">
+        body{
+            margin: 0px;
+            padding: 0;
+        }
+
+      
+         
+        .fundo > div[class^=largura] {
+            border-style: solid;
+            border-width: 2px;
+            margin-bottom: 5%;
+            height: 40px;
+            overflow: hidden;
+        } 
+        
+        .largura-auto{
+            
+            width: auto;
+            border-color: blue;
+        }
+
+        .largura-vwevh{
+            
+            width: 50vw;
+            border-color: green;
+        }
+
+        .largura-percent{
+            
+            width: 100%;
+            border-color: pink;
+
+        }
+
+        .largura-pixel{
+
+            width: 50%;
+            border-color: brown;
+        }
+
+        .largura-fit{
+
+            width: fit-content;
+            border-color: darkseagreen;
+        }
+
+        .largura-max{
+
+            width: max-content;
+            border-color: darkorange;
+
+        }
+
+        .largura-min{
+            width: min-content;
+            border-color:dodgerblue;
+
+        }
+
+        .largura-revert{
+
+            width: revert;
+            border-color: blueviolet;
+        }
+
+        .largura-unset{
+
+            width: unset;
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo">
+        <div class="largura-auto">
+           AUTO: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+
+        </div>
+        
+        <div class="largura-vwevh">
+            VWVH: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+
+        </div>
+
+        <div class="largura-percent">
+            PERCENT: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+
+        <div class="largura-pixel">
+            PIXEL: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+
+        <div class="largura-fit">
+            FIT-CONTENT: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, <br> magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+
+            
+        <div class="largura-max">
+            MAX: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, <br> magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+
+            
+        <div class="largura-min">
+            MIN: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, <br> magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+        
+        <div class="largura-revert">
+            REVERT: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, <br> magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+        
+        <div class="largura-unset">
+            UNSET: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolore quaerat recusandae quam! Hic vero asperiores facilis, <br> magni excepturi nihil ea consectetur voluptates laborum praesentium doloremque voluptate, tempore suscipit. Officia.
+        </div>
+        
+    </div>
+</body>
+</html>
